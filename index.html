@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Tab-pagina's</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Nieuws van: 
+    <SCRIPT>
+    var nu = new Date();
+    var dag = nu.getDate();
+    var dag2 = ((dag < 10) ? "0" : "") + dag;
+    var maand = nu.getMonth() + 1;
+    var maand2 = ((maand < 10) ? "0" : "") + maand;
+    var jaar = nu.getYear();
+    var jaar4 = ((jaar < 1900) ? (jaar + 1900) : (jaar));
+
+    document.write(dag2 + "-" + maand2 + "-" + jaar4);
+</SCRIPT> </h1>
+    <div class="nieuws">
+        <div class="knoppen">
+            <ul>
+                <li class="actief"><a href="#algemeen">Algemeen</a></li>
+                <li><a href="#binnenland">Binnenland</a></li>
+                <li><a href="#buitenland">Buitenland</a></li>
+                <li><a href="#sport">Sport</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="algemeen" class="paneel actief">
+        <h1>Algemeen</h1>
+        <h2>Spaartegoeden Nederlanders met 4,5 miljard euro gegroeid</h2>
+        <h3>Nederlandse spaarders hadden eind 2015 ongeveer 4,5 miljard euro meer op hun spaarrekening staan dan een jaar eerder.</h3>
+        <p>Eind 2015 hadden huishoudens in totaal ongeveer 336 miljard euro aan spaargeld bij Nederlandse banken uitstaan, meldt De Nederlandsche Bank (DNB) vrijdag. Een jaar eerder ging het nog om 332 miljard euro.</p>
+        <p>Halverwege het jaar hadden spaarders gezamenlijk nog het recordbedrag van 345 miljard euro op hun rekeningen staan.</p>
+        <p>Slechts 386 miljoen euro van de groei in 2015 is te danken aan de netto-inleg van spaarders. De rest van de toename zit in de rente die mensen over hun spaargeld ontvangen.</p>
+        <p>In de eerste zes maanden legden spaarders netto zo'n 10 miljard euro in. Maar in de tweede helft werd dit bedrag vrijwel volledig weer van de spaarrekeningen afgehaald.</p>
+    </div>
+
+    <div id="binnenland" class="paneel">
+        <h1>Binnenland</h1>
+        <h2>VN-panel pleit voor vrijheid Julian Assange</h2>
+        <h3>Een panel van de Verenigde Naties stelt dat Wikileaks-oprichter Julian Assange zonder wettelijke grond is gedetineerd en dat hij vrij moet zijn om te gaan waar hij wil. </h3>
+        <p>Donderdag maakte de <em>BBC</em> al bekend dat het speciale VN-panel in het voordeel van Assange zou besluiten over de zaak. </p>
+        <p>"De werkgroep is van mening dat de willekeurige detentie van meneer Assange dient te worden beëindigd, dat zijn fysieke integriteit en vrijheid om te bewegen worden gerespecteerd, en dat hij het recht krijgt op compensatie", stelt het VN-panel. </p>
+        <p>Assange is eind 2010 volgens de werkgroep onterecht tien dagen lang vastgezet. Ook het huisarrest dat daarop volgde en het verblijf van Assange op de ambassade van Ecuador moet volgens de VN worden beschouwd als een schending van de rechten van de klokkenluider. Zweden heeft volgens de werkgroep te weinig werk gemaakt van de zaak, waardoor Assange veel langer dan nodig vast heeft gezeten. </p>
+        <p>Een woordvoerder van de Britse regering stelt het oordeel van de VN te verwerpen. Het arrestatiebevel blijft van kracht, benadrukt de woordvoerder. De Britse politie liet donderdag al weten dat Assange direct wordt gearresteerd als hij de ambassade verlaat.</p>
+        <p>Het juridisch team van Assange spreekt van een "grote overwinning". Assage stelt dat het juridisch proces met de uitspraak van de VN-werkgroep nu is afgerond. </p>
+    </div>
+    <div id="sport" class="paneel">
+        <h2>Chinese atletes werden in jaren negentig gedwongen doping te gebruiken</h2>
+        <h3>De internationale atletiekfederatie IAAF is een onderzoek begonnen naar de authenticiteit van een brief uit 1995 waarin onder anderen voormalig topatlete Wang Junxia verhaalt over een door de bond en staat georganiseerd dopingbeleid.</h3>
+        <p>Dat bericht de krant <em>South China Morning Post</em>.</p>
+        <p>Wang Junxia won tijdens de Spelen van Atlanta in 1996 een gouden medaille op de 5000 meter en een zilveren medaille op de 10.000 meter.</p>
+        <p>Drie jaar daarvoor verbeterde ze op zowel de 3000 als 10.000 meter het wereldrecord, tijden die nog steeds niet succesvol zijn aangevallen.</p>
+        <p>De brief van Wang Junxia en negen andere atleten werd in 1997 verstuurd aan een Chinese journalist en dook pas onlangs op via <em>Tencent Sports</em>.</p>
+        <p>In een passage staat dat de atletes de verstrekte pillen weggooiden, maar dat hun trainer Ma Junren er persoonlijk op toezag dat ze zich injecteerden met doping.</p>
+        <p>"We zijn mensen, geen dieren", zou in de brief staan. "Hij dwong ons om grote hoeveelheden doping te nemen."</p>
+
+        <h3>Lang haar</h3>
+        <p>De IAAF heeft de Chinese atletiekbond gevraagd om te helpen met het onderzoek.</p>
+        <p>Tijdens de jaren negentig presteerden veel van Ma Junrens atleten ijzersterk. Volgens de trainer kwam dat door de intensieve trainingskampen op de Tibetaanse hoogvlakte en het uitvaardigen van een verbod op daten en het dragen van lang haar.</p>
+        <p>Tevens zou de groep gebruik hebben gemaakt van 'wondercocktails' met onder meer plantenextracten en schildpaddenbloed.</p>
+
+    </div>
+    <div id="buitenland" class="paneel">
+        <h1>Buitenland</h1>
+        <h2>Meer dan tachtig mijnwerkers vast na instorting in Zuid-Afrika </h2>
+        <h3>Bij een goudmijn in Zuid-Afrika zitten ongeveer 87 mijnwerkers vast nadat een gebouw bij de mijn was ingestort. Aanvankelijk werd aangenomen dat het om een ingestorte schacht ging. </h3>
+        <p><span>Bovengronds zouden 52 mensen vastzitten tussen het puin, ondergronds zijn vermoedelijk 35 mijnwerkers ingesloten. Eerder werd gemeld dat er 112 mijnwerkers vastzaten.</span></p>
+        <p>De instorting vond plaats bij de Makonjwaanmijn, ongeveer 360 kilometer ten oosten van Johannesburg. Meerdere kompels zijn inmiddels in veiligheid gebracht. Sommigen hadden lichte verwondingen opgelopen en zijn overgebracht naar een ziekenhuis. Er zijn nog geen berichten over doden.</p>
+        <p>De mijn ligt volgens Zuid-Afrikaanse media tussen de plaatsen Barberton en Kaapmuiden, in de provincie Mpumalanga. De directeur van de mijn heeft tegen een lokale krant gezegd dat er contact is met de mannen die ondergronds vastzitten.</p>
+        <p>Zuid-Afrikaanse mijnen behoren tot de diepste en gevaarlijkste ter wereld. In 2015 kwamen er 77 mijnwerkers om het leven, het laagste aantal ooit.</p>
+    </div>
+    <footer>
+        <div id="validatie">
+            <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                <img src="http://blog.boyet.com/blog/files/media/image/valid-html5-blue.png" alt="Valide HTML5"></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS"></a>
+        </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+
+    <script type="text/javascript">
+        $('.knoppen').each(function () {
+            var actief = $(this);
+            var actiefatm = actief.find('li .actief');
+            var link = actiefatm.find('a');
+            var actiefPaneel = $(link.attr('href'));
+
+            actief.on('click', 'a', function (e) {
+                e.preventDefault();
+                var link = $(this);
+                var Id = this.hash;
+                if (Id && !link.parent().is('actief')) {
+                    actiefPaneel.removeClass('actief');
+                    actiefatm.removeClass('actief');
+                    actiefPaneel = $(Id).addClass('actief');
+                    actiefatm = link.parent().addClass('actief');
+                };
+            });
+        });
+
+        $('.paneel').css('display', 'none');
+    </script>
+</body>
+
+</html>

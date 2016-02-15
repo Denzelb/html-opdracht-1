@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+}
+
+.knoppen {
+    background-color: greenyellow;
+    overflow: hidden;
+}
+
+.knoppen li {
+    list-style-type: none;
+    width: auto;
+    float: left;
+    padding: 3px;
+    background-color: yellowgreen;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.knoppen li.actief {
+    background-color: darkgreen;
+}
+
+.actief a {
+    color: lightgreen;
+}
+
+
+/*.paneel {
+    display: none;
+} */
+
+.paneel.actief {
+    display: block !important;
+}
